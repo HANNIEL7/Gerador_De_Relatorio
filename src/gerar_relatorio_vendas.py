@@ -61,17 +61,17 @@ def gerar_relatorio():
     nome_planilha = "Relatório de Vendas"
     email_destino = "SEU_EMAIL@gmail.com"  # <- Substitua aqui
 
-    print("🔄 Autenticando...")
+    print(" Autenticando...")
     gc = autenticar_google()
 
-    print("📄 Criando planilha...")
+    print(" Criando planilha...")
     planilha = criar_planilha(gc, nome_planilha, email_destino)
 
-    print("📊 Preenchendo dados...")
+    print(" Preenchendo dados...")
     aba = planilha.sheet1
     preencher_dados(aba)
 
-    print("✅ Relatório criado com sucesso no Google Drive!")
+    print(" Relatório criado com sucesso no Google Drive!")
 
 if __name__ == "__main__":
     gerar_relatorio()
