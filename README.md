@@ -1,10 +1,10 @@
-# 📊 Gerador de Relatório de Vendas - Google Sheets
+# Gerador de Relatório de Vendas - Google Sheets
 
 Este projeto Python cria automaticamente uma planilha de relatório de vendas no Google Sheets, insere dados de produtos e calcula os totais com fórmulas.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Autenticação com Google Sheets via `credenciais.json`
 - Criação de nova planilha com título e aba personalizada
@@ -16,7 +16,7 @@ Este projeto Python cria automaticamente uma planilha de relatório de vendas no
 
 ---
 
-## ✅ Requisitos
+##  Requisitos
 
 - Python 3.8+
 - Conta do Google + Acesso à [Google Cloud Console](https://console.cloud.google.com/)
